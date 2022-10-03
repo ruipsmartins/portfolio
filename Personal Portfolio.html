@@ -1,97 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Personal portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <body>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <nav id="navbar" class="nav">
+      <ul>
+        <li><a href="#welcome-section">About</a></li>
+        <li><a href="#projects">Work</a></li>
+        <li style="padding-right: 40px"><a href="#contacts">Contact</a></li>
+      </ul>
+    </nav>
 
+    <section id="welcome-section">
+      <h1 style="color: aliceblue">Hello, my name is Rui Martins</h1>
+      <p style="color: aliceblue">A web developer</p>
+    </section>
 
-</head>
+    <section id="projects">
+      <h2 class="projtitle">Some of my projects</h2>
 
-<body>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
-  <nav id="navbar" class="nav">
-    <ul>
-      <li> <a href="#welcome-section">About</a></li>
-      <li><a href="#projects">Work</a></li>
-      <li style="padding-right: 40px;"><a href="#contacts">Contact</a></li>
-    </ul>
-  </nav>
+      <div class="projbox">
+        <a
+          href="https://codepen.io/rui-martins-the-animator/pen/bGYrYjZ"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img class="project-image" src="/imagens/tribute.PNG" alt="project" />
+          <p class="projname">Tribute Page</p>
+        </a>
 
-  <section id="welcome-section">
-    <h1 style="color: aliceblue; ">Olá eu sou o Rui Martins</h1>
-    <p style="color: aliceblue;">Um web developer</p>
-  </section>
+        <a
+          href="https://codepen.io/rui-martins-the-animator/pen/LYdzQzP"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="/imagens/randomquotemachine.PNG"
+            alt="project"
+          />
+          <p class="projname">Random Quote Machine</p>
+        </a>
 
-  <section id="projects">
-    <h2 class="projtitle">Aqui estão alguns dos meus projetos</h2>
+        <a
+          href="https://codepen.io/rui-martins-the-animator/pen/NWYmERx"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="/imagens/calculator.PNG"
+            alt="project"
+          />
+          <p class="projname">JavaScript Calculator</p>
+        </a>
+      </div>
+      <div class="projbox">
+        <a
+          href="https://codepen.io/rui-martins-the-animator/pen/poLmgpO"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img class="project-image" src="/imagens/25clock.PNG" alt="project" />
+          <p class="projname">25 + 5 Clock</p>
+        </a>
 
-    <div class="projbox">
+        <a
+          href="https://codepen.io/rui-martins-the-animator/pen/JjLZZEK"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="/imagens/markdown.PNG"
+            alt="project"
+          />
+          <p class="projname">Markdown Previewr</p>
+        </a>
 
-      <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank" class="project project-tile">
-        <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
-          alt="project" />
-        <p class="projname">Tribute Page</p>
-      </a>
+        <a
+          href="https://codepen.io/rui-martins-the-animator/pen/zYWMYQo"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="/imagens/drummachine.PNG"
+            alt="project"
+          />
+          <p class="projname">Drum Machine</p>
+        </a>
+      </div>
+    </section>
 
-
-      <a href="https://codepen.io/freeCodeCamp/full/qRZeGZ" target="_blank" class="project project-tile">
-        <img class="project-image"
-          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png" alt="project" />
-        <p class="projname">Random Quote Machine</p>
-      </a>
-
-      <a href="https://codepen.io/freeCodeCamp/full/wgGVVX" target="_blank" class="project project-tile">
-        <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png"
-          alt="project" />
-        <p class="projname">JavaScript Calculator</p>
-      </a>
-    </div>
-    <div class="projbox">
-      <a href="https://codepen.io/freeCodeCamp/full/mVEJag" target="_blank" class="project project-tile">
-        <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg"
-          alt="project" />
-        <p class="projname">Map Data Across the Globe</p>
-      </a>
-
-
-      <a href="https://codepen.io/freeCodeCamp/full/wGqEga" target="_blank" class="project project-tile">
-        <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png"
-          alt="project" />
-        <p class="projname">Wikipedia Viewer</p>
-      </a>
-
-      <a href="https://codepen.io/freeCodeCamp/full/KzXQgy" target="_blank" class="project project-tile">
-        <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png"
-          alt="project" />
-        <p class="projname">Tic Tac Toe Game</p>
-      </a>
-
-    </div>
-
-
-
-  </section>
-
-  <section id="contacts">
-
-    <div id="links" class="linkscont">
-      <a href="https://www.facebook.com/rui.martins.756" target="_blank" class="linkscont"><i
-          class="fab fa-facebook-square"></i> Facebook</a>
-      <a id="links" href="https://github.com/freecodecamp" target="_blank" class="linkscont"><i
-          class="fab fa-github"></i> GitHub</a>
-      <a href="https://twitter.com/freecodecamp" target="_blank" class="linkscont"><i class="fab fa-twitter"></i>
-        Twitter</a>
-      <a href="mailto:rui_pedru@hotmail.com" class="linkscont"><i class="fas fa-at"></i> Send a mail</a>
-      <a href="tel:937619673" class="linkscont"><i class="fas fa-mobile-alt"></i> Call me</a>
-    </div>
-  </section>
-
-
-</body>
-
+    <section id="contacts">
+      <div id="links" class="linkscont">
+        <a
+          href="https://www.facebook.com/rui.martins.756"
+          target="_blank"
+          class="linkscont"
+          ><i class="fab fa-facebook-square"></i> Facebook</a
+        >
+        <a
+          id="links"
+          href="https://github.com/freecodecamp"
+          target="_blank"
+          class="linkscont"
+          ><i class="fab fa-github"></i> GitHub</a
+        >
+        <a
+          href="https://twitter.com/freecodecamp"
+          target="_blank"
+          class="linkscont"
+          ><i class="fab fa-twitter"></i> Twitter</a
+        >
+        <a href="mailto:rui_pedru@hotmail.com" class="linkscont"
+          ><i class="fas fa-at"></i> Send a mail</a
+        >
+        <a href="tel:937619673" class="linkscont"
+          ><i class="fas fa-mobile-alt"></i> Call me</a
+        >
+      </div>
+    </section>
+  </body>
 </html>
