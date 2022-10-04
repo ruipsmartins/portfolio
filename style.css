@@ -1,175 +1,161 @@
 :root {
-    scroll-behavior: smooth;
-    background-image: linear-gradient(45deg, #17324d 0%, #492e64 100%);
-    --tamanhoimg: 35vw;
-    --tamanholinks: 3vw;
-    --tamanhonomes: 2.5vw;
+  scroll-behavior: smooth;
+  background-image: linear-gradient(45deg, #17324d 0%, #492e64 100%);
+  --tamanhoimg: 30vw;
+  --tamanholinks: 3vw;
+  --tamanhonomes: 2.5vw;
 }
-
-
 
 /* inicio barra de navegação */
 .nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    position: fixed;
-    width: 100%;
-    background-color: rgb(54, 93, 179);
-
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(54, 93, 179);
 }
 
 #navbar ul {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    gap: 20px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 20px;
 }
 
 #navbar a {
-    text-decoration: none;
-    color: aliceblue;
-    padding: 10px;
-    font-size: 20px;
-    font-family: sans-serif;
-
+  text-decoration: none;
+  color: aliceblue;
+  padding: 10px;
+  font-size: 20px;
+  font-family: sans-serif;
 }
 
-
-
 @keyframes animacaobtn {
-    100% {
-        background-color: rgb(3, 8, 56);
-
-    }
+  100% {
+    background-color: rgb(3, 8, 56);
+  }
 }
 
 .nav a:hover {
-    animation-name: animacaobtn;
-    padding: 10px;
-    animation-duration: 1500ms;
-    animation-fill-mode: forwards;
-    border-radius: 15%;
+  animation-name: animacaobtn;
+  padding: 10px;
+  animation-duration: 1500ms;
+  animation-fill-mode: forwards;
+  border-radius: 15%;
 }
 
 /*final barra de navegação*/
 /* Inicio welcome section */
 #welcome-section {
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh;
-    width: 100%;
-
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
 }
 
 #welcome-section h1 {
-    font-size: 4.5vw;
+  font-size: 4.5vw;
 }
 
 #welcome-section p {
-    font-size: 3vw;
+  font-size: 3vw;
 }
 
 /* Final welcome section */
 /*Inicio dos projects*/
 #projects {
-    display: flex;
-    background-color: brown;
-    height: 100%;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  background-color: brown;
+  height: 100%;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .projtitle {
-    text-align: center;
-    color: aliceblue;
-    font-size: 35px;
-    border-radius: 600px;
-    border-bottom: 2px solid aliceblue;
-    padding-top: 50px;
-
+  text-align: center;
+  color: aliceblue;
+  font-size: 35px;
+  border-radius: 600px;
+  border-bottom: 2px solid aliceblue;
+  padding-top: 50px;
 }
 
 .projbox {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
-
 .project-image {
-    height: var(--tamanhoimg);
-    width: var(--tamanhoimg);
-    object-fit: cover;
-    max-height: 460px;
-    max-width: 460px;
-    min-height: 250px;
-    min-width: 250px;
+  height: var(--tamanhoimg);
+  width: var(--tamanhoimg);
+  object-fit: cover;
+  max-height: 460px;
+  max-width: 460px;
+  min-height: 250px;
+  min-width: 250px;
 }
 
 .projname {
-    background-color: #100341;
-    color: aliceblue;
-    font-size: var(--tamanhonomes);
-    text-decoration: none;
-
+  background-color: #100341;
+  color: aliceblue;
+  font-size: var(--tamanhonomes);
+  text-decoration: none;
 }
 
 .projname:hover {
-    background-color: #17324d;
+  background-color: #17324d;
 }
 
 /*Final dos projects*/
 /*Inicio dos contactos*/
 #contacts {
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    background-color: rgba(255, 0, 0, 0);
-    height: 40vh;
-    padding-top: 50px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  background-color: rgba(255, 0, 0, 0);
+  height: 40vh;
+  padding-top: 50px;
 }
 
 .linkscont {
-    display: flex;
-    text-align: center;
-    flex-direction: row;
-    font-size: var(--tamanholinks);
-    font-weight: 400;
-    flex-wrap: wrap;
-    justify-content: center;
-    color: aliceblue;
-    gap: 15px;
-    text-decoration: none;
-
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  font-size: var(--tamanholinks);
+  font-weight: 400;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: aliceblue;
+  gap: 15px;
+  text-decoration: none;
 }
-
 
 /*Final dos contactos*/
 @media (min-width: 1200px) {
-    :root {
-        --tamanholinks: 35px;
-        --tamanhonomes: 30px;
-    }
+  :root {
+    --tamanholinks: 35px;
+    --tamanhonomes: 30px;
+  }
 
-    /* ffffffffffffffffffffffffffffffff
+  /* ffffffffffffffffffffffffffffffff
     .projbox{
         justify-content: space-evenly;
     }*/
 }
 
 @media (max-width: 700px) {
-    .nav {
-        justify-content: center;
-        --tamanholinks: 12px;
-        --tamanhonomes: 12px;
-    }
+  .nav {
+    justify-content: center;
+    --tamanholinks: 12px;
+    --tamanhonomes: 12px;
+  }
 
-    :root {
-        --tamanhoimg: 25vw;
-    }
+  :root {
+    --tamanhoimg: 25vw;
+  }
 }
